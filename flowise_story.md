@@ -36,11 +36,22 @@ _Cléber's ChatFlow_
 - A `Chain Tool` connected to a `Conversation Chain` that interprets the  _raw_data_ according to our criteria and generates an _analysis_.
 - Finally, a `Chain Tool` that takes an _analysis_ and generates an interactive _HTML_ based on examples (few-shot).
 
+One example input that "Cléber" takes would be something like this:
+ - Give me the html for the engagement data for School X for the month of April
+
+`OpenAI Function Agent` then understands that it needs an _analysis_ for the _HTML_, need _raw_data_ for the _analysis_, need a _school_id_ and _time_period_ for the _raw_data_ and a _school_name_ for the _school_id_. 
+
+If the user don't provide some of this information, it asks the user until it has all the data it needs.
+
+If the school name is ambiguous, the agent present the options and asks the user to choose one.
+
+Here is the final output:
+
 ![Cleber Output](https://staticredigir.azureedge.net/flowise-briefing/4_Cleber_Html.png)
 
 _Cléber's Output_
 
-## **Some Other Bots**
+## **Other Bots**
 
 ![Support Bot](https://staticredigir.azureedge.net/flowise-briefing/6_Super_bot_avr.png)
 
