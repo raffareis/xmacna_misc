@@ -63,7 +63,7 @@ _Cléber's Output_
 
 **Assistant Bot**
 
-- An `OpenAI Function Agent`, with infinite memory using `Zep Memory`, and access to `Web Browser` and `Serp API`. Its prompt contains context specific to its user's workflow, and the `sessionId` is unique per user, as to preserve the memory.
+- An `OpenAI Function Agent`, with infinite memory using `Zep Memory`, and access to `Web Browser` and `Serp API`. Its prompt contains context specific to its user's workflow, and the `sessionId` is unique per user, as to preserve the full story.
 
 ## **The Future: Xmacna.ai**
 
