@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-Welcome to **Xmacna.ai**, a platform dedicated to facilitating the transition of businesses into an AI-centric perspective. Our roots trace back to **Plataforma Redigir**, a B2B EdTech company that aids schools in teaching writing skills to children.
+We are **Xmacna.ai**, a platform dedicated to facilitating the transition of businesses into an AI-centric perspective. Our roots trace back to **Plataforma Redigir**, a B2B EdTech company that aids schools in teaching writing skills to children.
 
 ## **The Challenge**
 
