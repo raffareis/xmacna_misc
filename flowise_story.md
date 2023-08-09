@@ -30,11 +30,11 @@ _Cléber's ChatFlow_
 
 ### **How Cléber Works**
 
-- It uses an `OpenAI Function Agent` that knows how to convert Data to Html through tools.
-- A `custom tool` connected to our business API that takes a school name and tries to return an ID.
-- A `custom tool` that takes a school Id and a time period and returns the raw data.
-- A `Chain Tool` connected to a `Conversation Chain` that interprets the raw data according to our criteria and generates an "Analysis".
-- Finally, a `Chain Tool` that takes an analysis and generates an interactive HTML based on an example (few-shot).
+- It uses an `OpenAI Function Agent` that knows how to convert a _school_name_ and a _time_period_ into a full blown personalized Html analysis through tools.
+- A `Custom Tool` connected to our business API that takes a _school_name_ and tries to return a _school_id_.
+- A `Custom Tool` that takes a _school_id_ and a _time_period_ and returns the _raw_data_.
+- A `Chain Tool` connected to a `Conversation Chain` that interprets the  _raw_data_ according to our criteria and generates an _analysis_.
+- Finally, a `Chain Tool` that takes an _analysis_ and generates an interactive _HTML_ based on examples (few-shot).
 
 ![Cleber Output](https://staticredigir.azureedge.net/flowise-briefing/4_Cleber_Html.png)
 
@@ -52,7 +52,7 @@ _Cléber's Output_
 
 **Assistant Bot**
 
-- An `OpenAI Function Agent`, with infinite memory using `Zep Memory`, and access to `Web Browser` and `Serp API`. Its prompt contains context specific to its user's workflow, and the `sessionID` is unique per user, as to preserve the memory.
+- An `OpenAI Function Agent`, with infinite memory using `Zep Memory`, and access to `Web Browser` and `Serp API`. Its prompt contains context specific to its user's workflow, and the `sessionId` is unique per user, as to preserve the memory.
 
 ## **The Future: Xmacna.ai**
 
