@@ -14,7 +14,7 @@ Our first breakthrough came with the introduction of **"Bárbara"**, an AI bot d
 
 ## **The Game Changer: Flowise**
 
-Enter **Flowise**, a game-changer that revolutionized our approach to AI bot creation. **Flowise** was not just a tool; it was a catalyst that democratized the ability to create AI bots within our organization. It empowered our Communications and Customer Support teams to create bots that automated and enhanced their tasks, effectively decentralizing the bot creation process from the IT department to the wider team. This led to a significant increase in our rate of innovation. Within the first week, we had two bots deployed and operational, many others brewing, neither of which were developed by IT.
+Enter **Flowise**, a game-changer that revolutionized our approach to AI bot creation. **Flowise** was not just a tool; it was a catalyst that democratized the ability to create AI bots within our organization. It empowered all of our teams to create bots that automated and enhanced their tasks, effectively decentralizing the bot creation process from the IT department to the wider team. This led to a significant increase in our rate of innovation. Within the first week, we had two bots deployed and operational, many others brewing, neither of which were developed by IT.
 
 ![Amount of ChatFlows](https://staticredigir.azureedge.net/flowise-briefing/5_Flowise_ChatFlows.png)
 
